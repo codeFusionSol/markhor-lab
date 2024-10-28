@@ -3082,28 +3082,6 @@ We launched a state-of-the-art adversary simulation tool within the ASM platform
 
     <!-- THEME PANEL - you can remove this area
         The panel loading after window load for better performance. -->
-    <script>
-      $(document).ready(function () {
-        "use strict";
-        setTimeout(function () {
-          $("body").append(
-            '<div id="panel" class="panel hiding font-secondary"><a href="https://themeforest.net/item/zeplin-creative-template/23392946" target="_blank" class="panel-button"><i class="ti-shopping-cart"></i><div>Get a copy</div></a><a href="#" class="panel-button theme-options"><i class="ti-settings"></i><div>Theme Options</div></a><a href="https://themeforest.net/item/zeplin-creative-template/23392946/support" target="_blank" class="panel-button"><i class="ti-email"></i><div>Get support</div></a><a href="../builder/" target="_blank" class="panel-button"><i class="ti-panel"></i><div>Try Visual Page Builder</div></a></div><div class="panel-backdrop"></div><div class="panel-switcher"><div class="loader-circle"></div><div class="loader-line-mask"><div class="loader-line"></div></div></div><style type="text/css">.panel:not(.loaded),.panel-switcher:not(.loaded),.panel-backdrop:not(.loaded){ visibility: hidden; }</style>'
-          );
-        }, 650);
-        setTimeout(function () {
-          $.getScript("js/theme-panel/theme-panel.js");
-          $("head").append(
-            $('<link rel="stylesheet" type="text/css" />').attr(
-              "href",
-              "js/theme-panel/theme-panel.css"
-            )
-          );
-        }, 700);
-        setTimeout(function () {
-          $("#panel, .panel-switcher, .panel-backdrop").addClass("loaded");
-        }, 1000);
-      });
-    </script>
     <!-- END THEME PANEL -->
   </body>
   <!-- Body End -->
