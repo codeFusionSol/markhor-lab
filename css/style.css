@@ -6025,6 +6025,7 @@ body:not(.lg-from-hash)
 }
 
 .flip-card-back {
+  padding: 0 25px !important;
   display: flex;
   background-color: #000 !important;
   flex-direction: column;
