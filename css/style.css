@@ -1614,6 +1614,30 @@ body.dark-layout .pagetop,
   -moz-transition: background 0.3s, border 0.3s, color 0.3s !important;
   transition: background 0.3s, border 0.3s, color 0.3s !important;
 }
+
+.contactBtn {
+  font-size: 11px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-top: 25px;
+  padding: 15px 50px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid #979797;
+  border-radius: 50px;
+  -webkit-transition: background 0.3s, border 0.3s, color 0.3s !important;
+  -moz-transition: background 0.3s, border 0.3s, color 0.3s !important;
+  transition: background 0.3s, border 0.3s, color 0.3s !important;
+}
+
+.contactBtn:hover {
+  color: white;
+  border: 1px solid #c52525;
+  background-color: #c52525 !important;
+}
 .home-button:hover,
 .home-button:focus,
 .home-button1:hover,
@@ -4432,8 +4456,12 @@ section.about .section-inner {
 }
 /* Package Box */
 .prices .prices-wrapper .package {
-  padding: 0 10px;
+  padding: 0 0;
   margin: 20px auto 0;
+}
+.package {
+  border: 1px solid #252525;
+  border-radius: 10px;
 }
 .prices .prices-wrapper .package .package-wrapper {
   background-color: transparent;
@@ -4499,7 +4527,7 @@ section.about .section-inner {
 }
 /* Package title */
 .prices .prices-wrapper .package .package-title {
-  font-size: 35px;
+  font-size: 25px;
   line-height: 40px;
   margin-top: 3px;
   font-weight: 300;
@@ -6003,7 +6031,7 @@ body:not(.lg-from-hash)
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  color: #fff  !important;
+  color: #fff !important;
   transform: rotateY(180deg);
 }
 
