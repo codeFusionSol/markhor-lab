@@ -6059,7 +6059,10 @@ body:not(.lg-from-hash)
 }
 
 .border {
-  border: 2px solid #dc3545 !important;
+  border-left: 5px solid #dc3545 !important;
+  border-top: 3px solid #dc3545 !important;
+  border-bottom: 3px solid #000 !important;
+  border-right: 5px solid #000 !important;
   border-radius: 10px;
   padding: 5px 0;
 }
