@@ -3222,6 +3222,19 @@ section.about .section-inner {
   margin-top: 20px;
   border: 1px solid #c9c9c9;
   padding: 40px 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.facts .facts-wrapper .fact-box:hover {
+  background-color: #000;
+}
+
+.facts .facts-wrapper .fact-box:hover .p {
+  color: #fff !important;
 }
 .facts .facts-wrapper .fact-subtitle {
   font-size: 22px;
