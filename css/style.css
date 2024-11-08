@@ -3229,6 +3229,10 @@ section.about .section-inner {
   align-items: center;
 }
 
+.p {
+  font-size: 16px;
+}
+
 .facts .facts-wrapper .fact-box:hover {
   background-color: #000;
 }
