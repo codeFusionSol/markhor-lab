@@ -6065,4 +6065,13 @@ body:not(.lg-from-hash)
   border-right: 5px solid #000 !important;
   border-radius: 10px;
   padding: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-box:hover .border {
+  border: 3px solid #dc3545 !important;
+}
+
+.skill-box {
+  transition: all 0.3s ease-in-out;
 }
